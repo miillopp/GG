@@ -1,3 +1,3 @@
 a = input('Введите трёхзначное число: ')
-b = int(a[0]) + int(a[1]) + int(a[2])
+b = float(a[0]) + float(a[1]) + float(a[2])
 print(b % 2 == 0)
